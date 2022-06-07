@@ -4,8 +4,6 @@ from typing import Union, Optional, List, Tuple
 import torch
 from torch import nn
 
-from seeralgo.models import SeerModule
-
 
 def autopad(kernel, padding=None):
     if padding is None:
